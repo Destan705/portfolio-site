@@ -34,6 +34,7 @@ function Home() {
             <li>I like working with full stack web development.</li>
             <li>I am interested in AI and it's role in the future.</li>
             <li>My favorite language is Phyton.</li>
+            <li>I like puppies</li>
           </ul>
         </div>
         <div
