@@ -47,7 +47,12 @@ function Home() {
             </li>
             <li>
               you can find out more about this course through this link:{" "}
-              <a href="https://catalogue.uottawa.ca/en/courses/seg/">
+              <a
+                href="https://catalogue.uottawa.ca/en/courses/seg/"
+                target="_blank"
+                rel="noreferrer"
+                onClick={(e) => e.stopPropagation()}
+              >
                 SEG 3125
               </a>
             </li>
@@ -78,7 +83,7 @@ function Home() {
           />
         </Link>
 
-        <Link to="onhold">
+        <Link to="/onhold">
           <img
             src={ecommerceSite}
             class="bg-transparent m-1 p-1"
@@ -89,7 +94,7 @@ function Home() {
           />
         </Link>
 
-        <Link to="onhold">
+        <Link to="/onhold">
           <img
             src={analyticsSite}
             class="bg-transparent m-1 p-1"

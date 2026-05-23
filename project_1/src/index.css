@@ -73,6 +73,7 @@ body {
   margin: 0 auto;
   text-align: center;
   box-shadow: 1px solid var(--border);
+
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -138,5 +139,5 @@ body * {
 
 body {
   margin: 0;
-  background-color: #a8e6e2; /* match your teal background color */
+  background-color: #afeeee;
 }
