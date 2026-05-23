@@ -7,7 +7,6 @@ import seriveSite from "./../../assets/image/service_site.png";
 import memoryGame from "./../../assets/image/memory_game.png";
 import ecommerceSite from "./../../assets/image/e-commerce_site.png";
 import analyticsSite from "./../../assets/image/analytics_site.png";
-import "bootstrap/dist/css/bootstrap.css";
 
 // you need to use react-router-dom in this page to be able to serve different pages on different endpoints
 
@@ -34,7 +33,6 @@ function Home() {
             <li>I like working with full stack web development.</li>
             <li>I am interested in AI and it's role in the future.</li>
             <li>My favorite language is Phyton.</li>
-            <li>I like puppies</li>
           </ul>
         </div>
         <div
@@ -42,16 +40,23 @@ function Home() {
           style={{ backgroundColor: "PowderBlue", borderRadius: "5%" }}
         >
           <h3>My Experince:</h3>
-          -I am currently taking SEG 3125 (Analysis and Design of User
-          Interfaces) as part of my software engineering squence.
-          <br />
-          -you can find out more about this course through this link:
-          <a href="https://catalogue.uottawa.ca/en/courses/seg/">SEG 3125</a>
+          <ul>
+            <li>
+              I am currently taking SEG 3125 (Analysis and Design of User
+              Interfaces) as part of my software engineering squence.
+            </li>
+            <li>
+              you can find out more about this course through this link:{" "}
+              <a href="https://catalogue.uottawa.ca/en/courses/seg/">
+                SEG 3125
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
 
       <div style={{ backgroundColor: "LightCyan", borderRadius: "5%" }}>
-        <a href="https://catalogue.uottawa.ca/en/courses/seg/">
+        <Link to="/onhold">
           <img
             src={seriveSite}
             class="bg-transparent m-1 p-1"
@@ -60,7 +65,7 @@ function Home() {
             height="250px"
             alt="seriveSit"
           />
-        </a>
+        </Link>
 
         <Link to="/onhold">
           <img

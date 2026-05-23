@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap");
+
 .counter {
   font-size: 16px;
   padding: 5px 10px;
@@ -185,5 +187,6 @@
     margin: 0;
     min-height: 100%;
     background-color: "#8ec3eb";
+    font-family: "Roboto Condensed";
   }
 }

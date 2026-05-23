@@ -15,10 +15,6 @@ Look into how to use display flex
 function App() {
   return (
     <BrowserRouter>
-      <nav>
-        <p>This is the nav, put links here later</p>
-      </nav>
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/onhold" element={<OnHoldPage />} />
