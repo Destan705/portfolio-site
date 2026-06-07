@@ -76,14 +76,15 @@ function Home() {
         <h3>Projects:</h3>
         <div className="row justify-content-center">
           <div className="col-6 col-md-3 d-flex flex-column align-items-center mb-3">
-            <Link to="/onhold">
+            <a href="https://service-website-3ew3.vercel.app/">
               <img
                 src={seriveSite}
                 className="img-fluid rounded"
                 style={{ width: "250px", height: "180px", objectFit: "cover" }}
                 alt="seriveSite"
               />
-            </Link>
+            </a>
+
             <p>A Service Site</p>
           </div>
 
